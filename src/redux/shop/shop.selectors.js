@@ -16,4 +16,3 @@ export const selectCollection = collectionUrlParam =>
   createSelector([selectCollections], collections =>
     collections[collectionUrlParam]
   );
-
